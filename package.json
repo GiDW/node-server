@@ -1,0 +1,23 @@
+{
+    "name": "@gidw/node-server",
+    "version": "0.0.1",
+    "description": "Node based web server",
+    "author": "Gilles De Waele",
+    "license": "MIT",
+    "keywords": [
+      "server",
+      "web",
+      "http"
+    ],
+    "dependencies": {},
+    "devDependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:GiDW/node-server.git"
+    },
+    "bugs": {
+      "url": "https://github.com/GiDW/node-server/issues",
+      "email": "de.waele.gilles@gmail.com"
+    },
+    "scripts": {}
+  }
