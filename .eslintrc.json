@@ -1,0 +1,48 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console": "off",
+    "no-undef": ["error", {
+      "typeof": false
+    }],
+    "no-unused-vars": ["warn", {
+      "vars": "all",
+      "args": "after-used",
+      "ignoreRestSiblings": false
+    }],
+    "semi": ["warn", "always"],
+    "valid-jsdoc": ["warn", {
+      "prefer": {
+        "arg": "param",
+        "argument": "param",
+        "class": "constructor",
+        "return": "returns",
+        "virtual": "abstract"
+      },
+      "preferType": {
+        "Boolean": "boolean",
+        "Number": "number",
+        "String": "string",
+        "Object": "object"
+      },
+      "requireReturn": false,
+      "requireReturnType": true,
+      "requireParamDescription": false,
+      "requireReturnDescription": false
+    }],
+    "indent": ["warn", 4],
+    "linebreak-style": ["warn", "unix"],
+    "quotes": ["warn", "single", {
+      "avoidEscape": true,
+      "allowTemplateLiterals": true
+    }]
+  }
+}

@@ -1,23 +1,28 @@
 {
-    "name": "@gidw/node-server",
-    "version": "0.0.1",
-    "description": "Node based web server",
-    "author": "Gilles De Waele",
-    "license": "MIT",
-    "keywords": [
-      "server",
-      "web",
-      "http"
-    ],
-    "dependencies": {},
-    "devDependencies": {},
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:GiDW/node-server.git"
-    },
-    "bugs": {
-      "url": "https://github.com/GiDW/node-server/issues",
-      "email": "de.waele.gilles@gmail.com"
-    },
-    "scripts": {}
-  }
+  "name": "@gidw/node-server",
+  "version": "0.0.1",
+  "description": "Node based web server",
+  "author": "Gilles De Waele",
+  "license": "MIT",
+  "bin": "bin/server.js",
+  "main": "lib/libserver.js",
+  "keywords": [
+    "server",
+    "web",
+    "http",
+    "node"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "4.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GiDW/node-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GiDW/node-server/issues",
+    "email": "de.waele.gilles@gmail.com"
+  },
+  "scripts": {}
+}
