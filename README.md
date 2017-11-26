@@ -2,4 +2,4 @@
 
 ## Usage
 
-`node server.js`
+`node node-server`
