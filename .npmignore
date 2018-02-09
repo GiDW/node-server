@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/node,macos,linux,windows,webstorm,visualstudiocode
+# Created by https://www.gitignore.io/api/node,linux,macos,windows,webstorm,visualstudiocode
 
 ### Linux ###
 *~
@@ -198,7 +198,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/node,macos,linux,windows,webstorm,visualstudiocode
+
+# End of https://www.gitignore.io/api/node,linux,macos,windows,webstorm,visualstudiocode
 
 ## Project
 
