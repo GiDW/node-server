@@ -7,7 +7,7 @@
   "bin": {
     "node-server": "./server.js"
   },
-  "main": "lib/libserver.js",
+  "main": "lib/server.js",
   "keywords": [
     "server",
     "web",
