@@ -51,6 +51,13 @@ function processArgs () {
 
                 options.logRequestHeaders - false;
             }
+
+        } else if (arg.indexOf('-rootLookForIndex') === 0) {
+
+            options.rootLookForIndex =
+                arg === '-rootLookForIndex' ||
+                arg === '-rootLookForIndex=true' ||
+                arg === '-rootLookForIndex=true';
         }
     }
 
