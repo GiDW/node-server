@@ -5,7 +5,7 @@
   "author": "Gilles De Waele",
   "license": "MIT",
   "bin": {
-    "node-server": "./server.js"
+    "node-server": "./index.js"
   },
   "main": "lib/server.js",
   "keywords": [

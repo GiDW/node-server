@@ -4,9 +4,7 @@
 
 var Server = require('./lib/server');
 
-var srv = new Server(processArgs());
-
-srv.start();
+new Server(processArgs()).start();
 
 function processArgs () {
 
