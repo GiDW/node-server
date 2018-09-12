@@ -7,7 +7,7 @@
 #### Options
 
 ```
-  -p, --port                        <PORT_NUMBER>
+  -p, --port                        <PORT_NUMBER> (8080)
   -c, --cors                        <CORS_STRING>
 
   -lr, -lR, --logRequest            [<BOOLEAN>|<NUMBER>] (true)
