@@ -85,10 +85,14 @@ function processArgs () {
         options.logRequestAddress = false
       }
     } else if (arg.indexOf('--rootLookForIndex') === 0) {
-      options.rootLookForIndex =
-        arg === '--rootLookForIndex' ||
+      if (arg === '--rootLookForIndex' ||
         arg === '--rootLookForIndex=true' ||
-        arg === '--rootLookForIndex=1'
+        arg === '--rootLookForIndex=1') {
+        options.rootLookForIndex = true
+      } else if (arg === '--rootLookForIndex=false' ||
+        arg === '--rootLookForIndex=0') {
+        options.rootLookForIndex = false
+      }
     }
   }
 

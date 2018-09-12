@@ -7,11 +7,12 @@
 #### Options
 
 ```
-  -port=<PORT_NUMBER>
-  -cors=<CORS_STRING>
-  
-  -logRequest, -logRequest=<BOOLEAN>
-  -logRequestHeaders, -logRequestHeaders=<BOOLEAN>
-  
-  -rootLookForIndex, -rootLookForIndex=<BOOLEAN>
+  -p, --port                        <PORT_NUMBER>
+  -c, --cors                        <CORS_STRING>
+
+  -lr, -lR, --logRequest            [<BOOLEAN>|<NUMBER>] (true)
+  -lrh, -lRH, --logRequestHeaders   [<BOOLEAN>|<NUMBER>] (false)
+  -lra, -lRA, --logRequestAddress   [<BOOLEAN>|<NUMBER>] (true)
+
+  --rootLookForIndex                [<BOOLEAN>] (true)
 ```
