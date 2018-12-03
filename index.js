@@ -23,6 +23,10 @@ function processArgs () {
       options.cors = arg.substring(7)
     } else if (arg.indexOf('-c=') === 0) {
       options.cors = arg.substring(3)
+    } else if (arg.indexOf('--dir=') === 0) {
+      options.directory = arg.substring(6)
+    } else if (arg.indexOf('-d=') === 0) {
+      options.directory = arg.substring(3)
     } else if (arg.indexOf('--logRequest') === 0) {
       if (arg === '--logRequest' ||
         arg === '--logRequest=true' ||
