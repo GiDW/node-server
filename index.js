@@ -50,7 +50,7 @@ function processArgs () {
         arg === '--logRequestAddress=0') {
         options.logRequestAddress = false
       }
-    } else if (arg.indexOf('-l' === 0)) {
+    } else if (arg.indexOf('-l') === 0) {
       if (arg === '-lr' ||
         arg === '-lR' ||
         arg === '-lr=true' ||
