@@ -2,7 +2,7 @@
 
 ## Usage
 
-`node-server [options]`
+`node-server [options] [directory_to_serve_files_from]`
 
 #### Options
 

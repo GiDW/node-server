@@ -97,6 +97,8 @@ function processArgs () {
         arg === '--rootLookForIndex=0') {
         options.rootLookForIndex = false
       }
+    } else if (i > 1) {
+      options.directory = arg
     }
   }
 
