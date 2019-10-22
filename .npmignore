@@ -123,6 +123,9 @@ typings/
 # nuxt.js build output
 .nuxt
 
+# react / gatsby
+public/
+
 # vuepress build output
 .vuepress/dist
 
@@ -225,7 +228,14 @@ fabric.properties
 # *.ipr
 
 # Sonarlint plugin
-.idea/sonarlint
+.idea/**/sonarlint/
+
+# SonarQube Plugin
+.idea/**/sonarIssues.xml
+
+# Markdown Navigator plugin
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator/
 
 ### Windows ###
 # Windows thumbnail cache files
