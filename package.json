@@ -1,6 +1,6 @@
 {
   "name": "@gidw/node-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node based web server",
   "author": "Gilles De Waele",
   "license": "MIT",
