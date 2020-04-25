@@ -17,7 +17,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "standard": "14.3.1"
+    "standard": "14.3.3"
   },
   "repository": "github:GiDW/node-server.git",
   "bugs": {
