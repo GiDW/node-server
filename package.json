@@ -23,6 +23,5 @@
   "bugs": {
     "url": "https://github.com/GiDW/node-server/issues",
     "email": "de.waele.gilles@gmail.com"
-  },
-  "scripts": {}
+  }
 }
