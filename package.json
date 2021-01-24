@@ -4,10 +4,6 @@
   "description": "Node based web server",
   "author": "Gilles De Waele",
   "license": "MIT",
-  "bin": {
-    "node-server": "./index.js"
-  },
-  "main": "lib/server.js",
   "keywords": [
     "server",
     "web",
@@ -15,9 +11,20 @@
     "node",
     "minimal"
   ],
+  "bin": {
+    "node-server": "./index.js"
+  },
+  "main": "lib/server.js",
   "dependencies": {},
   "devDependencies": {
-    "standard": "14.3.3"
+    "@gidw/eslint-config-standard-node": "^16.0.2",
+    "eslint": "^7.18.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "scripts": {
+    "lint": "eslint --no-error-on-unmatched-pattern **/*.js"
   },
   "repository": "github:GiDW/node-server.git",
   "bugs": {
