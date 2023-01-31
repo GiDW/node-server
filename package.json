@@ -17,14 +17,14 @@
   "main": "lib/server.js",
   "dependencies": {},
   "devDependencies": {
-    "@gidw/eslint-config-standard-node": "^16.0.2",
-    "eslint": "^7.19.0",
-    "eslint-plugin-import": "^2.22.1",
+    "@gidw/eslint-config-standard-node": "^1.1.1",
+    "eslint": "^8.33.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint-plugin-promise": "^6.1.1"
   },
   "scripts": {
-    "lint": "eslint --no-error-on-unmatched-pattern **/*.js"
+    "lint": "eslint --ext .js,.cjs,.mjs,.ts,.cts,.mts,.jsx,.tsx ."
   },
   "repository": "github:GiDW/node-server.git",
   "bugs": {
